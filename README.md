@@ -22,3 +22,6 @@ class MyClass implements MyInterface {
 }
 ```
 
+阿里, 百度, 腾讯, 京东, 亚马逊, 都在尝试使用Go语言作服务端的应用
+
+docket(虚拟化平台), go 语言本身也是用go语言开发
