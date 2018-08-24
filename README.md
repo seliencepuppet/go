@@ -40,7 +40,7 @@ func main() {
 ```
 3) 左花括号 {} 不能独自在一行, 必须和其他代码在一行
 4) 导入 Go Library 需要用import指令
-5) fmt.Printf("hello world!\n")
+5) Go语言规定, 所有导出的函数名称的首字母必须大写. fmt.Printf("hello world!\n")
 
 
 | 命令行的使用方法        | 产生的作用                  |
