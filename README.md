@@ -34,7 +34,8 @@ docket(虚拟化平台), go 语言本身也是用go语言开发
 package main
 import "fmt"
 
-func main(){
+func main() {
     fmt.Printf("hello world!\n")
 }
 ```
+3) 左花括号 {} 不能独自在一行, 必须和其他代码在一行
