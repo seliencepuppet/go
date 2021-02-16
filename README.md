@@ -101,6 +101,44 @@ C:\Users\Administrator>
 设置 go proxy 
 
 ```cmd
+C:\Users\Administrator>go env -w GOPROXY=https://goproxy.cn,direct
 
+C:\Users\Administrator>go env
+set GO111MODULE=on
+set GOARCH=amd64
+set GOBIN=
+set GOCACHE=C:\Users\Administrator\AppData\Local\go-build
+set GOENV=C:\Users\Administrator\AppData\Roaming\go\env
+set GOEXE=.exe
+set GOFLAGS=
+set GOHOSTARCH=amd64
+set GOHOSTOS=windows
+set GOINSECURE=
+set GOMODCACHE=C:\Users\Administrator\go\pkg\mod
+set GONOPROXY=
+set GONOSUMDB=
+set GOOS=windows
+set GOPATH=C:\Users\Administrator\go
+set GOPRIVATE=
+set GOPROXY=https://goproxy.cn,direct
+set GOROOT=E:\GOLANG
+set GOSUMDB=sum.golang.org
+set GOTMPDIR=
+set GOTOOLDIR=E:\GOLANG\pkg\tool\windows_amd64
+set GCCGO=gccgo
+set AR=ar
+set CC=gcc
+set CXX=g++
+set CGO_ENABLED=1
+set GOMOD=NUL
+set CGO_CFLAGS=-g -O2
+set CGO_CPPFLAGS=
+set CGO_CXXFLAGS=-g -O2
+set CGO_FFLAGS=-g -O2
+set CGO_LDFLAGS=-g -O2
+set PKG_CONFIG=pkg-config
+set GOGCCFLAGS=-m64 -mthreads -fno-caret-diagnostics -Qunused-arguments -fmessage-length=0 -fdebug-prefix-map=C:\Users\ADMINI~1\AppData\Local\Temp\go-build581816714=/tmp/go-build -gno-record-gcc-switc
+hes
 
+C:\Users\Administrator>
 ```
