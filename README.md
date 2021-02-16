@@ -47,3 +47,6 @@ func main() {
 |------------------------|----------------------------|
 | go run helloworld.go   | 使用该命令可以直接执行go程序 |
 | go build helloworld.go | 使用该命令之后会产生编译好的二进制文件可以直接执行并运行 |
+
+
+go在国内的代理网站 - https://goproxy.cn
