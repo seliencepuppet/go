@@ -50,3 +50,57 @@ func main() {
 
 
 go在国内的代理网站 - https://goproxy.cn
+
+
+设置 go module
+
+```cmd
+C:\Users\Administrator>
+C:\Users\Administrator>go env -w GO111MODULE=on
+
+C:\Users\Administrator>go env
+set GO111MODULE=on
+set GOARCH=amd64
+set GOBIN=
+set GOCACHE=C:\Users\Administrator\AppData\Local\go-build
+set GOENV=C:\Users\Administrator\AppData\Roaming\go\env
+set GOEXE=.exe
+set GOFLAGS=
+set GOHOSTARCH=amd64
+set GOHOSTOS=windows
+set GOINSECURE=
+set GOMODCACHE=C:\Users\Administrator\go\pkg\mod
+set GONOPROXY=
+set GONOSUMDB=
+set GOOS=windows
+set GOPATH=C:\Users\Administrator\go
+set GOPRIVATE=
+set GOPROXY=https://proxy.golang.org,direct
+set GOROOT=E:\GOLANG
+set GOSUMDB=sum.golang.org
+set GOTMPDIR=
+set GOTOOLDIR=E:\GOLANG\pkg\tool\windows_amd64
+set GCCGO=gccgo
+set AR=ar
+set CC=gcc
+set CXX=g++
+set CGO_ENABLED=1
+set GOMOD=NUL
+set CGO_CFLAGS=-g -O2
+set CGO_CPPFLAGS=
+set CGO_CXXFLAGS=-g -O2
+set CGO_FFLAGS=-g -O2
+set CGO_LDFLAGS=-g -O2
+set PKG_CONFIG=pkg-config
+set GOGCCFLAGS=-m64 -mthreads -fno-caret-diagnostics -Qunused-arguments -fmessage-length=0 -fdebug-prefix-map=C:\Users\ADMI
+hes
+
+C:\Users\Administrator>
+```
+
+设置 go proxy 
+
+```cmd
+
+
+```
