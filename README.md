@@ -51,6 +51,8 @@ func main() {
 
 go在国内的代理网站 - https://goproxy.cn
 
+go语言解释器下载网站 - https://golang.google.cn/
+
 
 设置 go module
 
